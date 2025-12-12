@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre CANDY VISTA PUERTO: hotel, restaurantes, spa y más. ¡Participa en nuestra lotería exclusiva!">
+    <title>CANDY VISTA PUERTO - Tu Paraíso de Confort y Diversión</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        header.scrolled {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        header.hidden {
+            transform: translateY(-100%);
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CANDY VISTA PUERTO</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#hotel">Hotel</a></li>
+                <li><a href="#internacional">Restaurante Internacional</a></li>
+                <li><a href="#africano">Restaurante Africano</a></li>
+                <li><a href="#spa">Spa</a></li>
+                <li><a href="#peluqueria">Peluquería</a></li>
+                <li><a href="#sauna">Sauna</a></li>
+                <li><a href="#jacuzzi">Jacuzzi</a></li>
+                <li><a href="#gym">Gym</a></li>
+                <li><a href="#hamana">Hamana</a></li>
+                <br>
+                <br>
+                <li><a href="#loteria">Loteria</a></li>
+                <li><a href="#anuncios">Anuncios</a></li>
+            </ul>
+        </nav>
+        <button id="mostrar-todos" class="btn-todos">Ver Todos los Servicios</button>
+    </header>
+
+    <section id="inicio" class="servicio bienvenida">
+        <h2>¡Bienvenidos a CANDY VISTA PUERTO!</h2>
+        <div class="album">
+            <img src="assets/images/establecimiento.jpg" alt="Vista general del establecimiento CANDY VISTA PUERTO" class="album-img">
+        </div>
+        <p>Gracias por visitarnos. En CANDY VISTA PUERTO nos enorgullece ofrecer servicios de calidad y confort para que tu experiencia sea inolvidable. Descubre nuestras instalaciones y disfruta de la mejor atención.</p>
+        <div class="contacto">
+            <p><strong>Contacto:</strong> +240 222 518 375 | <a href="mailto:info@candyvistapuerto.com">info@candyvistapuerto.com</a></p>
+            <p><strong>Dirección:</strong> QQ4J+Q53 Av. de la Independencia, Malabo, Guinea Ecuatorial</p>
+        </div>
+        <iframe src="https://www.google.com/maps?q=Candy+Vista+Puerto%2C+Malabo%2C+Guinea+Ecuatorial&output=embed" width="100%" height="300" style="border-radius:12px; margin:1rem 0;" loading="lazy" title="Mapa de ubicación de CANDY VISTA PUERTO"></iframe>
+    </section>
+
+    <main>
+        <section id="hotel" class="servicio">
+            <h2>Hotel</h2>
+            <video controls src="assets/hotel.mp4" class="servicio-video" poster="assets/hotel-poster.jpg" aria-label="Video tour de las habitaciones del hotel"></video>
+            <p>Nuestras camas son confortables, habitaciones limpias y ambiente relajante para tu descanso. Disfruta de una estadía inolvidable con todas las comodidades. Descubre nuestras habitaciones organizadas por categoría.</p>
+            
+            <!-- SUBSECCIÓN CLÁSICA PEQUEÑA -->
+            <div class="subseccion">
+                <h3>Clásica Pequeña</h3>
+                <p>Habitación compacta y acogedora, ideal para estancias cortas o viajeros solos. Incluye cama individual, baño privado y vistas parciales al jardín.</p>
+                <div class="album">
+                    <figure><img src="assets/images/clasica_pequena1.jpg" alt="Vista general de la habitación Clásica Pequeña" class="album-img"><figcaption>Habitación Clásica Pequeña - Vista General</figcaption></figure>
+                    <figure><img src="assets/images/clasica_pequena2.jpg" alt="Cama individual en Clásica Pequeña" class="album-img"><figcaption>Habitación Clásica Pequeña - Cama</figcaption></figure>
+                    <figure><img src="assets/images/clasica_pequena3.jpg" alt="Baño privado en Clásica Pequeña" class="album-img"><figcaption>Habitación Clásica Pequeña - Baño</figcaption></figure>
+                    <figure><img src="assets/images/clasica_pequena4.jpg" alt="Detalles decorativos en Clásica Pequeña" class="album-img"><figcaption>Habitación Clásica Pequeña - Detalles</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN CLÁSICA NORMAL -->
+            <div class="subseccion">
+                <h3>Clásica Normal</h3>
+                <p>Espacio equilibrado con cama queen size, zona de trabajo y acceso a balcón. Perfecta para parejas o profesionales en viaje.</p>
+                <div class="album">
+                    <figure><img src="assets/images/clasica_normal1.jpg" alt="Vista general de la habitación Clásica Normal" class="album-img"><figcaption>Habitación Clásica Normal - Vista General</figcaption></figure>
+                    <figure><img src="assets/images/clasica_normal2.jpg" alt="Cama queen en Clásica Normal" class="album-img"><figcaption>Habitación Clásica Normal - Cama</figcaption></figure>
+                    <figure><img src="assets/images/clasica_normal3.jpg" alt="Zona de trabajo en Clásica Normal" class="album-img"><figcaption>Habitación Clásica Normal - Escritorio</figcaption></figure>
+                    <figure><img src="assets/images/clasica_normal4.jpg" alt="Balcón con vistas en Clásica Normal" class="album-img"><figcaption>Habitación Clásica Normal - Balcón</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN CLÁSICA DOBLE -->
+            <div class="subseccion">
+                <h3>Clásica Doble</h3>
+                <p>Dos camas individuales o una king, con más espacio para familias pequeñas. Incluye minibar y TV de pantalla plana.</p>
+                <div class="album">
+                    <figure><img src="assets/images/clasica_doble1.jpg" alt="Vista general de la habitación Clásica Doble" class="album-img"><figcaption>Habitación Clásica Doble - Vista General</figcaption></figure>
+                    <figure><img src="assets/images/clasica_doble2.jpg" alt="Camas dobles en Clásica Doble" class="album-img"><figcaption>Habitación Clásica Doble - Camas</figcaption></figure>
+                    <figure><img src="assets/images/clasica_doble3.jpg" alt="Minibar en Clásica Doble" class="album-img"><figcaption>Habitación Clásica Doble - Minibar</figcaption></figure>
+                    <figure><img src="assets/images/clasica_doble4.jpg" alt="TV y entretenimiento en Clásica Doble" class="album-img"><figcaption>Habitación Clásica Doble - TV</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN SUITE JUNIOR -->
+            <div class="subseccion">
+                <h3>Suite Junior</h3>
+                <p>Amplia suite con sala de estar separada, cama king y baño con jacuzzi. Ideal para escapadas románticas.</p>
+                <div class="album">
+                    <figure><img src="assets/images/suite_junior1.jpg" alt="Vista general de la Suite Junior" class="album-img"><figcaption>Suite Junior - Vista General</figcaption></figure>
+                    <figure><img src="assets/images/suite_junior2.jpg" alt="Sala de estar en Suite Junior" class="album-img"><figcaption>Suite Junior - Sala</figcaption></figure>
+                    <figure><img src="assets/images/suite_junior3.jpg" alt="Cama king en Suite Junior" class="album-img"><figcaption>Suite Junior - Dormitorio</figcaption></figure>
+                    <figure><img src="assets/images/suite_junior4.jpg" alt="Baño con jacuzzi en Suite Junior" class="album-img"><figcaption>Suite Junior - Baño</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN GRAN SUITE -->
+            <div class="subseccion">
+                <h3>Gran Suite</h3>
+                <p>Lujo extendido con dos habitaciones, cocina equipada y terraza privada. Para estancias prolongadas o grupos.</p>
+                <div class="album">
+                    <figure><img src="assets/images/gran_suite1.jpg" alt="Vista general de la Gran Suite" class="album-img"><figcaption>Gran Suite - Vista General</figcaption></figure>
+                    <figure><img src="assets/images/gran_suite2.jpg" alt="Cocina equipada en Gran Suite" class="album-img"><figcaption>Gran Suite - Cocina</figcaption></figure>
+                    <figure><img src="assets/images/gran_suite3.jpg" alt="Habitación principal en Gran Suite" class="album-img"><figcaption>Gran Suite - Dormitorio Principal</figcaption></figure>
+                    <figure><img src="assets/images/gran_suite4.jpg" alt="Terraza privada en Gran Suite" class="album-img"><figcaption>Gran Suite - Terraza</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN SUITE EMBAJADOR -->
+            <div class="subseccion">
+                <h3>Suite Embajador</h3>
+                <p>Exclusividad total: suite presidencial con vistas panorámicas, mayordomo personal y amenidades premium.</p>
+                <div class="album">
+                    <figure><img src="assets/images/suite_embajador1.jpg" alt="Vista general de la Suite Embajador" class="album-img"><figcaption>Suite Embajador - Vista General</figcaption></figure>
+                    <figure><img src="assets/images/suite_embajador2.jpg" alt="Área de recepción en Suite Embajador" class="album-img"><figcaption>Suite Embajador - Recepción</figcaption></figure>
+                    <figure><img src="assets/images/suite_embajador3.jpg" alt="Dormitorio lujoso en Suite Embajador" class="album-img"><figcaption>Suite Embajador - Dormitorio</figcaption></figure>
+                    <figure><img src="assets/images/suite_embajador4.jpg" alt="Vistas panorámicas desde Suite Embajador" class="album-img"><figcaption>Suite Embajador - Vistas</figcaption></figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="internacional" class="servicio">
+            <h2>Restaurante Internacional</h2>
+            <video controls src="assets/videos/internacional.mp4" class="servicio-video" poster="assets/internacional-poster.jpg" aria-label="Video del Restaurante Internacional"></video>
+            <p>Platos internacionales preparados por chefs expertos, en un ambiente elegante y con servicio de calidad. Sabores del mundo en un solo lugar.</p>
+            <div class="album">
+                <img src="assets/images/internacional.jpg" alt="Ambiente elegante del Restaurante Internacional" class="album-img">
+                <img src="assets/images/internacional2.jpg" alt="Platos variados del Restaurante Internacional" class="album-img">
+                <img src="assets/images/internacional3.jpg" alt="Detalles del servicio en el Restaurante Internacional" class="album-img">
+            </div>
+        </section>
+
+        <section id="africano" class="servicio">
+            <h2>Restaurante Africano</h2>
+            <video controls src="assets/videos/africano.mp4" class="servicio-video" poster="assets/africano-poster.jpg" aria-label="Video del Restaurante Africano"></video>
+            <p>Gastronomía africana auténtica con ingredientes frescos y ambiente cultural. Descubre nuestros platillos únicos y exóticos organizados por categoría.</p>
+            
+            <!-- SUBSECCIÓN SOPAS -->
+            <div class="subseccion">
+                <h3>Sopas</h3>
+                <p>Nuestras deliciosas sopas caseras, preparadas con los mejores ingredientes.</p>
+                <div class="album">
+                    <figure><img src="assets/images/sopa_marisco.jpg" alt="Sopa de Marisco fresca y aromática" class="album-img"><figcaption>Sopa de Marisco</figcaption></figure>
+                    <figure><img src="assets/images/sopa_pescado.jpg" alt="Sopa de Pescado con hierbas frescas" class="album-img"><figcaption>Sopa de Pescado</figcaption></figure>
+                    <figure><img src="assets/images/sopa_vidrios.jpg" alt="Sopa de Vidrios tradicional" class="album-img"><figcaption>Sopa de Vidrios</figcaption></figure>
+                    <figure><img src="assets/images/sopa_pollo.jpg" alt="Sopa de Pollo reconfortante" class="album-img"><figcaption>Sopa de Pollo</figcaption></figure>
+                    <figure><img src="assets/images/sopa_verduras.jpg" alt="Sopa de Verduras saludable" class="album-img"><figcaption>Sopa de Verduras</figcaption></figure>
+                    <figure><img src="assets/images/sopa_cebolla.jpg" alt="Sopa de Cebolla caramelizada" class="album-img"><figcaption>Sopa de Cebolla</figcaption></figure>
+                    <figure><img src="assets/images/sopa_general.jpg" alt="Selección variada de sopas" class="album-img"><figcaption>Sopas Variadas</figcaption></figure>
+                    <figure><img src="assets/images/sopa_ndole.jpg" alt="Sopa Ndolé camerunesa con espinacas y carne" class="album-img"><figcaption>Sopa Ndolé</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN HUEVOS -->
+            <div class="subseccion">
+                <h3>Huevos y Tortillas</h3>
+                <p>Huevos preparados de múltiples formas, desde lo simple hasta lo gourmet.</p>
+                <div class="album">
+                    <figure><img src="assets/images/tortilla_francesa.jpg" alt="Tortilla Francesa suave y esponjosa" class="album-img"><figcaption>Tortilla Francesa</figcaption></figure>
+                    <figure><img src="assets/images/tortilla_española.jpg" alt="Tortilla Española con patatas" class="album-img"><figcaption>Tortilla Española</figcaption></figure>
+                    <figure><img src="assets/images/tortilla_verduras.jpg" alt="Tortilla con Verduras mixtas" class="album-img"><figcaption>Tortilla con Verduras</figcaption></figure>
+                    <figure><img src="assets/images/tortilla_champinones.jpg" alt="Tortilla con Champiñones salteados" class="album-img"><figcaption>Tortilla con Champiñones</figcaption></figure>
+                    <figure><img src="assets/images/tortilla_jamon.jpg" alt="Tortilla con Jamón ibérico" class="album-img"><figcaption>Tortilla con Jamón</figcaption></figure>
+                    <figure><img src="assets/images/huevo_frito.jpg" alt="Huevo Frito crujiente" class="album-img"><figcaption>Huevo Frito</figcaption></figure>
+                    <figure><img src="assets/images/omelette_africano.jpg" alt="Omelette con especias africanas y vegetales" class="album-img"><figcaption>Omelette Africano</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN DESAYUNOS -->
+            <div class="subseccion">
+                <h3>Desayunos</h3>
+                <p>Desayunos variados para empezar el día con energía.</p>
+                <div class="album">
+                    <figure><img src="assets/images/desayuno_bebida_caliente.jpg" alt="Desayuno con bebida caliente y pan" class="album-img"><figcaption>Desayuno c/ Bebida Caliente</figcaption></figure>
+                    <figure><img src="assets/images/desayuno_simple.jpg" alt="Desayuno Simple con frutas" class="album-img"><figcaption>Desayuno Simple</figcaption></figure>
+                    <figure><img src="assets/images/desayuno_completo.jpg" alt="Desayuno Completo equilibrado" class="album-img"><figcaption>Desayuno Completo</figcaption></figure>
+                    <figure><img src="assets/images/desayuno_americano.jpg" alt="Desayuno Americano con pancakes" class="album-img"><figcaption>Desayuno Americano</figcaption></figure>
+                    <figure><img src="assets/images/desayuno_injera.jpg" alt="Desayuno etíope con injera y huevos" class="album-img"><figcaption>Desayuno Injera</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN PIZZAS -->
+            <div class="subseccion">
+                <h3>Pizzas</h3>
+                <p>Pizzas caseras con ingredientes premium y masa artesanal.</p>
+                <div class="album">
+                    <figure><img src="assets/images/pizza_reina.jpg" alt="Pizza Reina con jamón y queso" class="album-img"><figcaption>Pizza Reina</figcaption></figure>
+                    <figure><img src="assets/images/pizza_pollo.jpg" alt="Pizza de Pollo con vegetales" class="album-img"><figcaption>Pizza de Pollo</figcaption></figure>
+                    <figure><img src="assets/images/pizza_bbq.jpg" alt="Pizza BBQ ahumada" class="album-img"><figcaption>Pizza BBQ</figcaption></figure>
+                    <figure><img src="assets/images/pizza_margarita.jpg" alt="Pizza Margarita clásica" class="album-img"><figcaption>Pizza Margarita</figcaption></figure>
+                    <figure><img src="assets/images/pizza_atun.jpg" alt="Pizza de Atún fresca" class="album-img"><figcaption>Pizza de Atún</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN PASTAS -->
+            <div class="subseccion">
+                <h3>Pastas</h3>
+                <p>Pastas italianas auténticas preparadas con salsas caseras.</p>
+                <div class="album">
+                    <figure><img src="assets/images/pasta_boloñesa.jpg" alt="Pasta Boloñesa con carne" class="album-img"><figcaption>Pasta Boloñesa</figcaption></figure>
+                    <figure><img src="assets/images/pasta_carbonara.jpg" alt="Pasta Carbonara cremosa" class="album-img"><figcaption>Pasta Carbonara</figcaption></figure>
+                    <figure><img src="assets/images/espagueti_pollo.jpg" alt="Espagueti con Pollo y salsa" class="album-img"><figcaption>Espagueti con Pollo</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN TAPAS -->
+            <div class="subseccion">
+                <h3>Tapas y Botanas</h3>
+                <p>Variedad de tapas españolas para compartir y disfrutar.</p>
+                <div class="album">
+                    <figure><img src="assets/images/tapa_pollo.jpg" alt="Tapa de Pollo frito" class="album-img"><figcaption>Tapa de Pollo</figcaption></figure>
+                    <figure><img src="assets/images/tapa_carne.jpg" alt="Tapa de Carne asada" class="album-img"><figcaption>Tapa de Carne</figcaption></figure>
+                    <figure><img src="assets/images/tapa_caracol.jpg" alt="Tapa de Caracol especiado" class="album-img"><figcaption>Tapa de Caracol</figcaption></figure>
+                    <figure><img src="assets/images/tapa_bolola.jpg" alt="Tapa de Bola tradicional" class="album-img"><figcaption>Tapa de Bola</figcaption></figure>
+                    <figure><img src="assets/images/croquetas_pollo.jpg" alt="Croquetas con Pollo crujientes" class="album-img"><figcaption>Croquetas con Pollo</figcaption></figure>
+                    <figure><img src="assets/images/empanadillas.jpg" alt="Empanadillas rellenas" class="album-img"><figcaption>Empanadillas</figcaption></figure>
+                    <figure><img src="assets/images/tapa_sardina.jpg" alt="Tapa de Sardina grillada" class="album-img"><figcaption>Tapa de Sardina</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN PESCADOS -->
+            <div class="subseccion">
+                <h3>Pescados y Mariscos</h3>
+                <p>Pescados y mariscos frescos, preparados al gusto.</p>
+                <div class="album">
+                    <figure><img src="assets/images/filete_plancha.jpg" alt="Filete a la Plancha jugoso" class="album-img"><figcaption>Filete a la Plancha</figcaption></figure>
+                    <figure><img src="assets/images/pescado_horno.jpg" alt="Pescado al Horno con hierbas" class="album-img"><figcaption>Pescado al Horno</figcaption></figure>
+                    <figure><img src="assets/images/pescado_brasa.jpg" alt="Pescado a la Brasa ahumado" class="album-img"><figcaption>Pescado a la Brasa</figcaption></figure>
+                    <figure><img src="assets/images/pincho_gambas.jpg" alt="Pincho de Gambas marinadas" class="album-img"><figcaption>Pincho de Gambas</figcaption></figure>
+                    <figure><img src="assets/images/gambas_ajillo.jpg" alt="Gambas al Ajillo con ajo" class="album-img"><figcaption>Gambas al Ajillo</figcaption></figure>
+                    <figure><img src="assets/images/muamba_pescado.jpg" alt="Muamba de pescado angoleño" class="album-img"><figcaption>Muamba de Pescado</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN POLLO -->
+            <div class="subseccion">
+                <h3>Pollo</h3>
+                <p>Deliciosas preparaciones de pollo, desde lo clásico hasta lo creativo.</p>
+                <div class="album">
+                    <figure><img src="assets/images/pollo_curri.jpg" alt="Pollo al Curri especiado" class="album-img"><figcaption>Pollo al Curri</figcaption></figure>
+                    <figure><img src="assets/images/alitas_rebosadas.jpg" alt="Alitas Rebosadas crujientes" class="album-img"><figcaption>Alitas Rebosadas</figcaption></figure>
+                    <figure><img src="assets/images/pollo_cordon_bleu.jpg" alt="Pollo Cordón Bleu relleno" class="album-img"><figcaption>Pollo Cordón Bleu</figcaption></figure>
+                    <figure><img src="assets/images/medio_pollo.jpg" alt="Medio Pollo asado" class="album-img"><figcaption>Medio Pollo</figcaption></figure>
+                    <figure><img src="assets/images/muslitos.jpg" alt="Muslitos jugosos" class="album-img"><figcaption>Muslitos</figcaption></figure>
+                    <figure><img src="assets/images/pollo_general.jpg" alt="Pollo Asado general" class="album-img"><figcaption>Pollo Asado</figcaption></figure>
+                    <figure><img src="assets/images/pollo_frito.jpg" alt="Pollo Frito dorado" class="album-img"><figcaption>Pollo Frito</figcaption></figure>
+                    <figure><img src="assets/images/pollo_asado.jpg" alt="Pollo Rostizado completo" class="album-img"><figcaption>Pollo Rostizado</figcaption></figure>
+                </div>
+            </div>
+
+            <!-- SUBSECCIÓN ENSALADAS -->
+            <div class="subseccion">
+                <h3>Ensaladas</h3>
+                <p>Ensaladas frescas y saludables, perfectas como entrada o plato principal.</p>
+                <div class="album">
+                    <figure><img src="assets/images/platillo1.jpg" alt="Ensalada César con pollo" class="album-img"><figcaption>Ensalada César</figcaption></figure>
+                    <figure><img src="assets/images/platillo2.jpg" alt="Ensalada Mixta variada" class="album-img"><figcaption>Ensalada Mixta</figcaption></figure>
+                    <figure><img src="assets/images/platillo3.jpg" alt="Ensalada Rusa cremosa" class="album-img"><figcaption>Ensalada Rusa</figcaption></figure>
+                    <figure><img src="assets/images/platillo4.jpg" alt="Perritos Calientes gourmet" class="album-img"><figcaption>Perritos Calientes</figcaption></figure>
+                    <figure><img src="assets/images/ensalada_kachumbari.jpg" alt="Ensalada Kachumbari keniana con tomates y cebolla" class="album-img"><figcaption>Ensalada Kachumbari</figcaption></figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="spa" class="servicio">
+            <h2>Spa</h2>
+            <div class="album">
+                <img src="assets/images/spa.jpg" alt="Ambiente relajante del Spa" class="album-img">
+            </div>
+            <video controls src="assets/spa.mp4" class="servicio-video" poster="assets/spa-poster.jpg" aria-label="Video de tratamientos en el Spa"></video>
+            <p>Masajes relajantes, tratamientos exclusivos y ambiente de paz. Renueva tu energía.</p>
+        </section>
+
+        <section id="peluqueria" class="servicio">
+            <h2>Peluquería</h2>
+            <div class="album">
+                <img src="assets/images/peluqueria.jpg" alt="Estación de Peluquería profesional" class="album-img">
+            </div>
+            <video controls src="assets/peluqueria.mp4" class="servicio-video" poster="assets/peluqueria-poster.jpg" aria-label="Video de servicios de peluquería"></video>
+            <p>Cortes modernos, productos de calidad y atención profesional. Estilo para todos.</p>
+        </section>
+
+        <section id="sauna" class="servicio">
+            <h2>Sauna</h2>
+            <div class="album">
+                <img src="assets/images/sauna.jpg" alt="Sauna tradicional para relajación" class="album-img">
+            </div>
+            <video controls src="assets/sauna.mp4" class="servicio-video" poster="assets/sauna-poster.jpg" aria-label="Video del Sauna"></video>
+            <p>Ambiente cálido, relajación total y beneficios para la salud. Desintoxícate.</p>
+        </section>
+
+        <section id="jacuzzi" class="servicio">
+            <h2>Jacuzzi</h2>
+            <div class="album">
+                <img src="assets/images/jacuzzi.jpg" alt="Jacuzzi burbujeante privado" class="album-img">
+            </div>
+            <video controls src="assets/jacuzzi.mp4" class="servicio-video" poster="assets/jacuzzi-poster.jpg" aria-label="Video del Jacuzzi"></video>
+            <p>Agua caliente, burbujas relajantes y privacidad asegurada. Momento de placer puro.</p>
+        </section>
+
+        <section id="gym" class="servicio">
+            <h2>Gym</h2>
+            <div class="album">
+                <img src="assets/images/gym.jpg" alt="Gimnasio equipado con máquinas modernas" class="album-img">
+            </div>
+            <video controls src="assets/gym.mp4" class="servicio-video" poster="assets/gym-poster.jpg" aria-label="Video del Gym"></video>
+            <p>Equipos modernos, rutinas personalizadas y entrenadores expertos. Mantente en forma.</p>
+        </section>
+
+        <section id="hamana" class="servicio">
+            <h2>Hamana</h2>
+            <div class="album">
+                <img src="assets/images/hamana.jpg" alt="Sesión de Hamana para bienestar" class="album-img">
+            </div>
+            <video controls src="assets/hamana.mp4" class="servicio-video" poster="assets/hamana-poster.jpg" aria-label="Video de Hamana"></video>
+            <p>Relajación profunda, ambiente tranquilo y bienestar integral. Para cuerpo y mente.</p>
+        </section>
+
+        <section id="loteria" class="loteria">
+            <h2>Lotería CANDY: ¡Premia tu Felicidad!</h2>
+            <div class="boleto-loteria">
+                <img src="assets/loteria.jpg" alt="Boleto de Lotería CANDY con premios emocionantes" class="servicio-img">
+                <div class="premios-destacados">
+                    <h3>¡Gana Increíbles Premios!</h3>
+                    <ul class="lista-premios">
+                        <li><span class="icono">🏆</span> Smartphone último modelo</li>
+                        <li><span class="icono">🍽️</span> Cena romántica para 2</li>
+                        <li><span class="icono">📺</span> Televisor 55" Smart TV</li>
+                        <li><span class="icono">🎁</span> Spa gratis por una semana</li>
+                        <li><span class="icono">🍭</span> Canasta de dulces premium (para niños)</li>
+                    </ul>
+                </div>
+            </div>
+            <video controls src="assets/loteria.mp4" class="servicio-video" poster="assets/loteria-poster.jpg" aria-label="Video promocional de la Lotería CANDY"></video>
+            <p>¡Participa y gana con nuestra lotería exclusiva! Cada visita cuenta. Sorteos mensuales y premios instantáneos.</p>
+
+            <div class="fidelidad">
+                <h3>Programa: Premia tu Fidelidad</h3>
+                <div class="flayer">
+                    <h4>10 Visitas = 1 Premio Instantáneo</h4>
+                    <ul>
+                        <li>Recibe tu tarjeta de fidelidad al primer consumo.</li>
+                        <li>Sella por cada visita (o regístrate digitalmente).</li>
+                        <li>¡Al 10º sello, se te ofrece un premio: descuento, bebida gratis o más!</li>
+                        <li>Especial para niños: dulces y juguetes divertidos.</li>
+                    </ul>
+                </div>
+                <div class="flayer">
+                    <h4>Acumula 100.000 Francos en Consumo</h4>
+                    <ul>
+                        <li>Entra al sorteo mensual de premios mayores.</li>
+                        <li>Comparte puntos con familiares para más chances.</li>
+                        <li>¡Ganadores anunciados en vivo y en redes!</li>
+                    </ul>
+                </div>
+                <div class="testimonios">
+                    <h4>Historias de Ganadores</h4>
+                    <blockquote>"¡Ganamos una cena increíble! Volveremos pronto." - María G.</blockquote>
+                    <blockquote>"Mi hijo amó el juguete sorpresa. ¡Gracias CANDY!" - Pedro L.</blockquote>
+                </div>
+                <button class="btn-participar">¡Únete Ahora! (Pide tu Tarjeta)</button>
+            </div>
+        </section>
+
+        <!-- Sección de Anuncios actualizada -->
+        <section id="anuncios" class="servicio">
+            <h2>Anuncios</h2>
+            <p>Aquí se publicarán anuncios de actividades y eventos del hotel. Todos los usuarios pueden ver los anuncios existentes.</p>
+            <div id="contenedor-anuncios">
+                <!-- Mensaje por defecto si no hay anuncios -->
+                <div class="mensaje-sin-anuncios">
+                    <p><strong>No hay anuncios disponibles en este momento.</strong></p>
+                    <p>Revisa pronto para ver nuevas actividades del hotel.</p>
+                </div>
+                <!-- Contenedor dinámico para anuncios (poblado por JS) -->
+                <div id="lista-anuncios"></div>
+            </div>
+            <!-- Botón visible para todos, pero solo staff puede usarlo -->
+            <button id="agregar-anuncio" class="btn-admin">Agregar Anuncio</button>
+            <!-- Modal simulado para upload (creado por JS) -->
+            <div id="modal-upload" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Subir Anuncio</h3>
+                    <input type="text" id="titulo-anuncio" placeholder="Título del anuncio">
+                    <textarea id="descripcion-anuncio" placeholder="Descripción del anuncio"></textarea>
+                    <input type="file" id="archivo-anuncio" accept="image/*,.pdf" multiple>
+                    <button id="confirmar-upload">Subir Anuncio</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CANDY VISTA PUERTO. Todos los derechos reservados. | <a href="#privacy">Política de Privacidad</a></p>
+    </footer>
+</body>
+</html>
